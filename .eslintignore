@@ -1,7 +1,0 @@
-!/.storybook
-/.storybook/data/*
-/assets/vendor/*
-/dist/*
-/tests/backstop/html_report/*
-/tests/qunit/*
-/vendor/*

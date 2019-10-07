@@ -1,43 +1,23 @@
 {
-  "name": "google/google-site-kit",
-  "description": "Site Kit is a one-stop solution for WordPress users to use everything Google has to offer to make them successful on the web.",
-  "version": "1.0.0-beta.1.0.7",
-  "license": "Apache-2.0",
+  "name": "pixelstudio/google-site-kit",
+  "description": "Site Kit is a one-stop solution for WordPress users to use everything Google has to offer to make them successful on the web",
+  "keywords": ["wordpress", "plugin", "google", "analytics", "adsense", "search-console"],
   "type": "wordpress-plugin",
-  "homepage": "https://sitekit.withgoogle.com",
-  "require-dev": {
-    "phpunit/phpunit": "^4",
-    "squizlabs/php_codesniffer": "^3.3",
-    "wp-coding-standards/wpcs": "^1",
-    "phpcompatibility/php-compatibility": "^9",
-    "dealerdirect/phpcodesniffer-composer-installer": "0.4.4",
-    "johnpbloch/wordpress-core": "^5.2"
-  },
+  "homepage": "https://github.com/hrsetyono/google-site-kit/",
+  "authors": [
+    {
+      "name": "Google",
+      "homepage": "https://opensource.google.com"
+    },
+    {
+      "name": "Pixel Studio",
+      "email": "info@pixelstudio.id",
+      "homepage": "https://pixelstudio.id"
+    }
+  ],
+  "license": "MIT",
   "require": {
-    "php": ">=5.4",
-    "google/apiclient": "^2.0",
-    "guzzlehttp/guzzle": "~5.3.3"
-  },
-  "replace": {
-    "phpseclib/phpseclib": "*"
-  },
-  "autoload": {
-    "psr-4": {
-      "Google\\Site_Kit\\": "includes"
-    }
-  },
-  "autoload-dev": {
-    "psr-4": {
-      "Google\\Site_Kit\\Tests\\": "tests/phpunit/includes"
-    }
-  },
-  "config": {
-    "platform": {
-      "php": "5.4"
-    }
-  },
-  "scripts": {
-    "lint": "vendor/bin/phpcs",
-    "lint-fix": "vendor/bin/phpcbf"
+    "php": ">=7.0.0",
+    "composer/installers": "~1.0"
   }
 }
